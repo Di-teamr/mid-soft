@@ -13,7 +13,7 @@
   </div>
   <HelloWorld msg="Vite + Vue" /> -->
   <div>
-    <div class="box-border h-32 w-32 p-4 border-4 ...">
+    <div class="box-border h-[58vh] w-32 p-4 border-4 ...">
       <!-- ... -->
     </div>
   </div>
