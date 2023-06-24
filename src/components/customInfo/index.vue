@@ -5,9 +5,30 @@
     <div
       class="w-[22.6rem] bg-darkGreen h-[22.6rem] rounded-bl-[3.75rem] rounded-tl-[1.8rem] rounded-br-[1.8rem] m-[0.7rem] flex flex-col pt-16 pb-11 absolute"
     >
-      <input class="w-64 h-9 bg-ceramic m-auto rounded-br-2xl z-10" />
-      <input class="w-64 h-9 bg-ceramic m-auto rounded-bl-2xl z-10" />
-      <div class="w-64 h-9 bg-ceramic m-auto rounded-br-2xl"></div>
+      <div
+        class="w-64 h-9 m-auto bg-ceramic rounded-br-2xl text-[1.2rem] pl-2 leading-9 text-darkGreen"
+      >
+        账户:
+        <input
+          type="text"
+          placeholder="手机号/账户名"
+          class="w-44 h-9 bg-ceramic z-10 outline-0 inline-block text-xs align-top"
+        />
+      </div>
+      <div
+        class="w-64 h-9 m-auto bg-ceramic rounded-bl-2xl text-[1.2rem] pl-2 leading-9 text-darkGreen"
+      >
+        密码:
+        <input
+          type="password"
+          class="w-44 h-9 z-10 outline-0 bg-ceramic inline-block"
+        />
+      </div>
+      <div
+        class="w-64 h-9 bg-ceramic m-auto z-10 rounded-br-2xl leading-9 text-darkGreen text-[1.2rem] text-center"
+      >
+        登录
+      </div>
     </div>
     <!-- 左 中 右 ,偏右相反-->
     <div
