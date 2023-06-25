@@ -1,5 +1,6 @@
 <template>
   <div
+    v-if="0"
     class="w-96 h-96 box-content bg-ceramic rounded-bl-[4.2rem] rounded-tl-[2.4rem] rounded-br-[2.4rem] border-[0.25rem] border-darkGreen absolute"
   >
     <div
@@ -12,7 +13,7 @@
         <input
           type="text"
           placeholder="手机号/账户名"
-          class="w-44 h-9 bg-ceramic z-10 outline-0 inline-block text-xs align-top"
+          class="w-44 h-9 bg-ceramic z-10 outline-0 inline-block text-sm align-top"
         />
       </div>
       <div
@@ -30,7 +31,7 @@
         登录
       </div>
     </div>
-    <!-- 左 中 右 ,偏右相反-->
+    <!--以下都是斜线 左 中 右 ,偏右相反-->
     <div
       class="w-[0.125rem] h-[7.2rem] bg-ceramic absolute rotate-[-30deg] left-[2.2rem] top-[1.7rem]"
     ></div>
