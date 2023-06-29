@@ -2,8 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "MyFont";
+  src: url("@/assets/fonts/dyt.ttf") format("truetype");
+  /* 这里可以添加其他字体属性，比如字重、斜体等 */
+}
+
 :root {
   background-color: #242424;
+  --ht: 120rem;
+  --wh: 67.5rem;
+  /* overflow: hidden; */
+  /* font-size: var(--rootsize); */
   /* 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
