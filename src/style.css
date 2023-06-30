@@ -12,7 +12,7 @@
   background-color: #242424;
   --ht: 120rem;
   --wh: 67.5rem;
-  /* overflow: hidden; */
+  overflow: hidden;
   /* font-size: var(--rootsize); */
   /* 
   font-synthesis: none;

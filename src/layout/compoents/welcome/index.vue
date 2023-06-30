@@ -5,7 +5,7 @@
     <Transition name="fade">
       <div
         v-show="isshow"
-        class="absolute bottom-4 left-1/2 -translate-x-1/2 animate-bounce"
+        class="absolute bottom-4 left-1/2 -ml-10 animate-bounce"
       >
         <svg
           width="90.140380859375"
@@ -28,7 +28,7 @@
         </svg>
       </div>
     </Transition>
-    <texteff class="absolute top-32 left-1/2 translate-x-1/2"></texteff>
+    <texteff class="absolute top-[10%] left-[63%]"></texteff>
   </div>
 </template>
 

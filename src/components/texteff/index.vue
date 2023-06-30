@@ -2,14 +2,14 @@
   <div>
     <!-- <ul></ul> -->
     <Transition name="tlapp">
-      <h2 v-show="brshow">45454545</h2>
+      <h2 v-show="brshow">医疗数据解析</h2>
     </Transition>
     <Transition name="cotapp">
       <div v-show="brshow">
-        <li>123121</li>
-        <li>123121</li>
-        <li>113232</li>
-        <li>121232</li>
+        <li>便利</li>
+        <li>清晰</li>
+        <li>简约</li>
+        <span>开始使用</span>
       </div>
     </Transition>
   </div>
@@ -25,13 +25,23 @@ onMounted(() => {
 
 <style scoped>
 li {
+  line-height: 4.5rem;
   list-style: none;
   font-size: 3rem;
   font-family: "MyFont";
+  text-shadow: 0.25rem 0.25rem 0.5rem rgb(255, 255, 255);
+}
+span {
+  line-height: 5rem;
+  font-size: 1.5rem;
+  font-family: "MyFont";
+  text-shadow: 0.25rem 0.25rem 0.5rem rgb(255, 255, 255);
 }
 h2 {
   font-size: 4rem;
   font-family: "MyFont";
+  text-shadow: 0.25rem 0.25rem 0.5rem rgb(255, 255, 255);
+  margin-bottom: 3rem;
 }
 .tlapp-enter-active {
   transition: opacity 0.5s;
