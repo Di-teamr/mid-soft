@@ -2,7 +2,7 @@
   <div>
     <!-- <ul></ul> -->
     <Transition name="tlapp">
-      <h2 v-show="brshow">医疗数据解析</h2>
+      <h2 v-show="brshow">欢迎使用</h2>
     </Transition>
     <Transition name="cotapp">
       <div v-show="brshow">

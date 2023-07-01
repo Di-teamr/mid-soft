@@ -1,10 +1,10 @@
 <template>
   <div
     v-if="0"
-    class="w-96 h-96 box-content bg-ceramic rounded-bl-[4.2rem] rounded-tl-[2.4rem] rounded-br-[2.4rem] border-[0.25rem] border-darkGreen absolute"
+    class="w-96 h-96 box-content bg-ceramic rounded-bl-[4.2rem] rounded-tl-[2.4rem] rounded-br-[2.4rem] border-[0.25rem] border-darkGreen absolute z-20"
   >
     <div
-      class="w-[22.6rem] bg-darkGreen h-[22.6rem] rounded-bl-[3.75rem] rounded-tl-[1.8rem] rounded-br-[1.8rem] m-[0.7rem] flex flex-col pt-16 pb-11 absolute"
+      class="w-[22.6rem] bg-[url('@/assets/img/bglog.png')] bg-cover h-[22.6rem] rounded-bl-[3.75rem] rounded-tl-[1.8rem] rounded-br-[1.8rem] m-[0.7rem] flex flex-col pt-16 pb-11 absolute"
     >
       <div
         class="w-64 h-9 m-auto bg-ceramic rounded-br-2xl text-[1.2rem] pl-2 leading-9 text-darkGreen"
