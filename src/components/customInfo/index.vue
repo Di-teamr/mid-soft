@@ -64,10 +64,10 @@
 
 <script setup lang="ts" name="customInfo">
 // import {ref} from "vue";
-const props = defineProps<{
-  value: string;
-}>();
-console.log(props.value);
+// const props = defineProps<{
+//   value: string;
+// }>();
+// console.log(props.value);
 </script>
 
 <style scoped lang="less"></style>

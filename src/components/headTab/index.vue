@@ -1,5 +1,7 @@
 <template>
-  <div class="bg-lime-700 fixed top-0 w-full h-16 z-10"></div>
+  <div
+    class="bg-[url('@/assets/img/tabBg.jpg')] fixed top-0 w-full h-16 z-10"
+  ></div>
 </template>
 
 <script setup lang="ts" name="headTab">

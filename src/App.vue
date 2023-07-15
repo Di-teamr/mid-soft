@@ -4,19 +4,22 @@ import customIn from "./components/customInfo/index.vue";
 import headTab from "./components/headTab/index.vue";
 import welcome from "./layout/compoents/welcome/index.vue";
 import upload from "./layout/compoents/upload/index.vue";
-document.addEventListener("wheel", (e) => {
-  if (e.deltaY > 0) {
-    window.scrollTo({
-      top: window.innerHeight,
-      behavior: "smooth",
-    });
-  } else {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  }
-});
+
+setTimeout(() => {
+  document.addEventListener("wheel", (e) => {
+    if (e.deltaY > 0) {
+      window.scrollTo({
+        top: window.innerHeight,
+        behavior: "smooth",
+      });
+    } else {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    }
+  });
+}, 3000);
 </script>
 
 <template>

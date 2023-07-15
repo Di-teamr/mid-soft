@@ -30,18 +30,21 @@ li {
   font-size: 3rem;
   font-family: "MyFont";
   text-shadow: 0.25rem 0.25rem 0.5rem rgb(255, 255, 255);
+  user-select: none;
 }
 span {
   line-height: 5rem;
   font-size: 1.5rem;
   font-family: "MyFont";
   text-shadow: 0.25rem 0.25rem 0.5rem rgb(255, 255, 255);
+  user-select: none;
 }
 h2 {
   font-size: 4rem;
   font-family: "MyFont";
   text-shadow: 0.25rem 0.25rem 0.5rem rgb(255, 255, 255);
   margin-bottom: 3rem;
+  user-select: none;
 }
 .tlapp-enter-active {
   transition: opacity 0.5s;

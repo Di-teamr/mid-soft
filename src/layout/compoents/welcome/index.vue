@@ -4,8 +4,9 @@
   >
     <Transition name="fade">
       <div
+        id="toggle"
         v-show="isshow"
-        class="absolute bottom-4 left-1/2 -ml-10 animate-bounce"
+        class="absolute bottom-4 left-1/2 -ml-10 animate-bounce cursor-pointer"
       >
         <svg
           width="90.140380859375"
@@ -42,6 +43,15 @@ document.documentElement.style.setProperty("--wh", `${window.innerWidth}px`);
 let isshow = ref(false);
 onMounted(() => {
   isshow.value = true;
+  const toggle = document.querySelector("#toggle");
+  setTimeout(() => {
+    toggle?.addEventListener("click", () => {
+      window.scrollTo({
+        top: window.innerHeight,
+        behavior: "smooth",
+      });
+    });
+  }, 3000);
 });
 </script>
 
